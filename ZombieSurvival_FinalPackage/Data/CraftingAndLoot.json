@@ -1,0 +1,749 @@
+{
+  "crafting_recipes": {
+    "stone_axe": {
+      "result": "axe_stone",
+      "quantity": 1,
+      "time": 15,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 100,
+        "stone": 50
+      }
+    },
+    "hatchet": {
+      "result": "hatchet",
+      "quantity": 1,
+      "time": 30,
+      "level": 2,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 50,
+        "metal_fragments": 30
+      }
+    },
+    "pickaxe": {
+      "result": "pickaxe",
+      "quantity": 1,
+      "time": 30,
+      "level": 2,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 100,
+        "metal_fragments": 50
+      }
+    },
+    "building_plan": {
+      "result": "building_plan",
+      "quantity": 1,
+      "time": 10,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 20
+      }
+    },
+    "wooden_spear": {
+      "result": "spear_wooden",
+      "quantity": 1,
+      "time": 20,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 150
+      }
+    },
+    "metal_sword": {
+      "result": "sword_metal",
+      "quantity": 1,
+      "time": 60,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 50,
+        "metal_fragments": 100,
+        "leather": 20
+      }
+    },
+    "pistol": {
+      "result": "pistol",
+      "quantity": 1,
+      "time": 120,
+      "level": 8,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 150,
+        "scrap": 50,
+        "wood": 50
+      }
+    },
+    "shotgun": {
+      "result": "shotgun",
+      "quantity": 1,
+      "time": 180,
+      "level": 12,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 200,
+        "scrap": 75,
+        "wood": 100
+      }
+    },
+    "rifle": {
+      "result": "rifle",
+      "quantity": 1,
+      "time": 300,
+      "level": 20,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 300,
+        "hq_metal": 20,
+        "scrap": 100,
+        "wood": 100
+      }
+    },
+    "sniper": {
+      "result": "sniper",
+      "quantity": 1,
+      "time": 360,
+      "level": 25,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 400,
+        "hq_metal": 50,
+        "scrap": 150
+      }
+    },
+    "rocket_launcher": {
+      "result": "rocket_launcher",
+      "quantity": 1,
+      "time": 480,
+      "level": 30,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 500,
+        "hq_metal": 100,
+        "scrap": 200
+      }
+    },
+    "bow": {
+      "result": "bow",
+      "quantity": 1,
+      "time": 30,
+      "level": 1,
+      "station": null,
+      "ingredients": {
+        "wood": 100,
+        "rope": 2
+      }
+    },
+    "arrow": {
+      "result": "arrow",
+      "quantity": 10,
+      "time": 10,
+      "level": 1,
+      "station": null,
+      "ingredients": {
+        "wood": 20,
+        "stone": 10
+      }
+    },
+    "ammo_9mm": {
+      "result": "ammo_9mm",
+      "quantity": 10,
+      "time": 5,
+      "level": 5,
+      "station": null,
+      "ingredients": {
+        "metal_fragments": 5,
+        "gunpowder": 10
+      }
+    },
+    "ammo_556": {
+      "result": "ammo_556",
+      "quantity": 10,
+      "time": 5,
+      "level": 15,
+      "station": null,
+      "ingredients": {
+        "metal_fragments": 10,
+        "gunpowder": 15
+      }
+    },
+    "ammo_762": {
+      "result": "ammo_762",
+      "quantity": 10,
+      "time": 5,
+      "level": 20,
+      "station": null,
+      "ingredients": {
+        "metal_fragments": 15,
+        "gunpowder": 20
+      }
+    },
+    "ammo_12gauge": {
+      "result": "ammo_12gauge",
+      "quantity": 5,
+      "time": 5,
+      "level": 10,
+      "station": null,
+      "ingredients": {
+        "metal_fragments": 10,
+        "gunpowder": 20
+      }
+    },
+    "ammo_rocket": {
+      "result": "ammo_rocket",
+      "quantity": 1,
+      "time": 30,
+      "level": 30,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 50,
+        "explosives": 5,
+        "gunpowder": 50
+      }
+    },
+    "bandage": {
+      "result": "bandage",
+      "quantity": 2,
+      "time": 5,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "cloth": 10
+      }
+    },
+    "medkit": {
+      "result": "medkit",
+      "quantity": 1,
+      "time": 30,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "cloth": 50,
+        "scrap": 20,
+        "food_meat_cooked": 2
+      }
+    },
+    "gunpowder": {
+      "result": "gunpowder",
+      "quantity": 10,
+      "time": 2,
+      "level": 5,
+      "station": null,
+      "ingredients": {
+        "charcoal": 10,
+        "sulfur": 10
+      }
+    },
+    "satchel_charge": {
+      "result": "satchel_charge",
+      "quantity": 1,
+      "time": 30,
+      "level": 15,
+      "station": "workbench",
+      "ingredients": {
+        "gunpowder": 50,
+        "rope": 2,
+        "metal_fragments": 10
+      }
+    },
+    "c4": {
+      "result": "c4",
+      "quantity": 1,
+      "time": 60,
+      "level": 25,
+      "station": "workbench",
+      "ingredients": {
+        "gunpowder": 100,
+        "explosives": 5,
+        "metal_fragments": 20,
+        "hq_metal": 5
+      }
+    },
+    "foundation_wood": {
+      "result": "foundation_wood",
+      "quantity": 1,
+      "time": 20,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 50
+      }
+    },
+    "wall_wood": {
+      "result": "wall_wood",
+      "quantity": 1,
+      "time": 15,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 30
+      }
+    },
+    "door_wood": {
+      "result": "door_wood",
+      "quantity": 1,
+      "time": 10,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "wood": 20
+      }
+    },
+    "foundation_stone": {
+      "result": "foundation_stone",
+      "quantity": 1,
+      "time": 30,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 20,
+        "stone": 50
+      }
+    },
+    "wall_stone": {
+      "result": "wall_stone",
+      "quantity": 1,
+      "time": 25,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 15,
+        "stone": 30
+      }
+    },
+    "foundation_metal": {
+      "result": "foundation_metal",
+      "quantity": 1,
+      "time": 45,
+      "level": 15,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 10,
+        "metal_fragments": 50
+      }
+    },
+    "wall_metal": {
+      "result": "wall_metal",
+      "quantity": 1,
+      "time": 40,
+      "level": 15,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 10,
+        "metal_fragments": 30
+      }
+    },
+    "claim_block": {
+      "result": "claim_block",
+      "quantity": 1,
+      "time": 60,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "wood": 100,
+        "stone": 100,
+        "metal_fragments": 50
+      }
+    },
+    "armor_wood": {
+      "result": "armor_wood",
+      "quantity": 1,
+      "time": 20,
+      "level": 2,
+      "station": null,
+      "ingredients": {
+        "wood": 100,
+        "cloth": 50
+      }
+    },
+    "armor_metal": {
+      "result": "armor_metal",
+      "quantity": 1,
+      "time": 60,
+      "level": 10,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 100,
+        "leather": 50,
+        "cloth": 50
+      }
+    },
+    "armor_hq": {
+      "result": "armor_hq",
+      "quantity": 1,
+      "time": 120,
+      "level": 25,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 200,
+        "hq_metal": 50,
+        "leather": 100
+      }
+    },
+    "helmet_metal": {
+      "result": "helmet_metal",
+      "quantity": 1,
+      "time": 45,
+      "level": 10,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 50,
+        "leather": 20
+      }
+    },
+    "low_grade_fuel": {
+      "result": "low_grade_fuel",
+      "quantity": 5,
+      "time": 5,
+      "level": 0,
+      "station": null,
+      "ingredients": {
+        "cloth": 10,
+        "wood": 20
+      }
+    },
+    "repair_kit": {
+      "result": "repair_kit",
+      "quantity": 1,
+      "time": 20,
+      "level": 5,
+      "station": "workbench",
+      "ingredients": {
+        "metal_fragments": 20,
+        "scrap": 10,
+        "cloth": 10
+      }
+    }
+  },
+  "loot_tables": {
+    "military_crate": {
+      "min_items": 3,
+      "max_items": 6,
+      "entries": [
+        {
+          "item": "ammo_556",
+          "min": 20,
+          "max": 60,
+          "chance": 0.4
+        },
+        {
+          "item": "ammo_762",
+          "min": 10,
+          "max": 30,
+          "chance": 0.3
+        },
+        {
+          "item": "rifle",
+          "min": 1,
+          "max": 1,
+          "chance": 0.05
+        },
+        {
+          "item": "sniper",
+          "min": 1,
+          "max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "armor_metal",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "helmet_metal",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "medkit",
+          "min": 1,
+          "max": 3,
+          "chance": 0.3
+        },
+        {
+          "item": "explosives",
+          "min": 1,
+          "max": 3,
+          "chance": 0.15
+        },
+        {
+          "item": "hq_metal",
+          "min": 5,
+          "max": 20,
+          "chance": 0.2
+        }
+      ]
+    },
+    "food_crate": {
+      "min_items": 2,
+      "max_items": 5,
+      "entries": [
+        {
+          "item": "food_canned",
+          "min": 1,
+          "max": 3,
+          "chance": 0.5
+        },
+        {
+          "item": "water_bottle",
+          "min": 1,
+          "max": 2,
+          "chance": 0.4
+        },
+        {
+          "item": "food_meat_cooked",
+          "min": 1,
+          "max": 2,
+          "chance": 0.3
+        },
+        {
+          "item": "bandage",
+          "min": 1,
+          "max": 3,
+          "chance": 0.3
+        }
+      ]
+    },
+    "vehicle_wreck": {
+      "min_items": 2,
+      "max_items": 4,
+      "entries": [
+        {
+          "item": "part_engine",
+          "min": 1,
+          "max": 1,
+          "chance": 0.2,
+          "condition_min": 20,
+          "condition_max": 80
+        },
+        {
+          "item": "part_wheels",
+          "min": 1,
+          "max": 2,
+          "chance": 0.4,
+          "condition_min": 30,
+          "condition_max": 90
+        },
+        {
+          "item": "part_battery",
+          "min": 1,
+          "max": 1,
+          "chance": 0.3,
+          "condition_min": 10,
+          "condition_max": 70
+        },
+        {
+          "item": "part_transmission",
+          "min": 1,
+          "max": 1,
+          "chance": 0.15,
+          "condition_min": 20,
+          "condition_max": 60
+        },
+        {
+          "item": "scrap",
+          "min": 10,
+          "max": 50,
+          "chance": 0.6
+        },
+        {
+          "item": "metal_fragments",
+          "min": 20,
+          "max": 100,
+          "chance": 0.5
+        },
+        {
+          "item": "low_grade_fuel",
+          "min": 10,
+          "max": 50,
+          "chance": 0.4
+        }
+      ]
+    },
+    "zombie_walker": {
+      "min_items": 0,
+      "max_items": 2,
+      "entries": [
+        {
+          "item": "cloth",
+          "min": 5,
+          "max": 15,
+          "chance": 0.3
+        },
+        {
+          "item": "food_canned",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "wood",
+          "min": 10,
+          "max": 30,
+          "chance": 0.2
+        },
+        {
+          "item": "stone",
+          "min": 5,
+          "max": 15,
+          "chance": 0.2
+        }
+      ]
+    },
+    "zombie_runner": {
+      "min_items": 1,
+      "max_items": 3,
+      "entries": [
+        {
+          "item": "cloth",
+          "min": 10,
+          "max": 20,
+          "chance": 0.4
+        },
+        {
+          "item": "metal_fragments",
+          "min": 5,
+          "max": 15,
+          "chance": 0.3
+        },
+        {
+          "item": "ammo_9mm",
+          "min": 5,
+          "max": 15,
+          "chance": 0.2
+        },
+        {
+          "item": "bandage",
+          "min": 1,
+          "max": 2,
+          "chance": 0.2
+        }
+      ]
+    },
+    "zombie_tank": {
+      "min_items": 2,
+      "max_items": 4,
+      "entries": [
+        {
+          "item": "metal_fragments",
+          "min": 20,
+          "max": 50,
+          "chance": 0.5
+        },
+        {
+          "item": "scrap",
+          "min": 10,
+          "max": 30,
+          "chance": 0.4
+        },
+        {
+          "item": "ammo_556",
+          "min": 10,
+          "max": 30,
+          "chance": 0.3
+        },
+        {
+          "item": "medkit",
+          "min": 1,
+          "max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "armor_metal",
+          "min": 1,
+          "max": 1,
+          "chance": 0.05
+        }
+      ]
+    },
+    "zombie_boss": {
+      "min_items": 4,
+      "max_items": 8,
+      "entries": [
+        {
+          "item": "hq_metal",
+          "min": 10,
+          "max": 30,
+          "chance": 0.6
+        },
+        {
+          "item": "explosives",
+          "min": 2,
+          "max": 5,
+          "chance": 0.4
+        },
+        {
+          "item": "rifle",
+          "min": 1,
+          "max": 1,
+          "chance": 0.15
+        },
+        {
+          "item": "sniper",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "armor_hq",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "ammo_rocket",
+          "min": 1,
+          "max": 3,
+          "chance": 0.2
+        },
+        {
+          "item": "c4",
+          "min": 1,
+          "max": 2,
+          "chance": 0.15
+        },
+        {
+          "item": "part_rotor",
+          "min": 1,
+          "max": 1,
+          "chance": 0.1
+        }
+      ]
+    },
+    "barrel": {
+      "min_items": 1,
+      "max_items": 3,
+      "entries": [
+        {
+          "item": "scrap",
+          "min": 5,
+          "max": 20,
+          "chance": 0.5
+        },
+        {
+          "item": "metal_fragments",
+          "min": 5,
+          "max": 15,
+          "chance": 0.4
+        },
+        {
+          "item": "low_grade_fuel",
+          "min": 5,
+          "max": 20,
+          "chance": 0.3
+        },
+        {
+          "item": "cloth",
+          "min": 5,
+          "max": 15,
+          "chance": 0.3
+        }
+      ]
+    }
+  }
+}
